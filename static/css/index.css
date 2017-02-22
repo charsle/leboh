@@ -1,0 +1,335 @@
+ .lebohui-warpper {
+     min-height: 100vh;
+     background: #f2f2f2;
+ }
+ 
+ .lebohui-home-header {
+     display: flex;
+     height: 100px;
+     align-items: center;
+     justify-content: space-around;
+     background: linear-gradient(157deg, #00D2FF 0%, #3A7BD5 100%);
+ }
+ 
+ .lebohui-comm-content {
+     /*padding-bottom: 1px;*/
+ }
+ 
+ .lebohuo-home-footer {
+     width: 100%;
+     height: 60px;
+     background: #fff;
+     position: relative;
+     z-index: 99;
+     align-items: center;
+     box-shadow: -3px 0 5px #ccc;
+ }
+ 
+ .lebohuo-home-footer-content {
+     display: flex;
+     height: 60px;
+     justify-content: space-around;
+ }
+ 
+ .lebohui-footer-item {
+     padding: 5px 0;
+     flex: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #666;
+ }
+ 
+ .lebohui-header-item dl {
+     color: #fff
+ }
+ 
+ .lebohui-footer-item dl {
+     text-align: center;
+ }
+ /*.lebohui-footer-item dl dd {
+     font-size: 12px;
+ }*/
+ 
+ .lebohui-header-item dl dt {
+     height: 50px;
+ }
+ 
+ .lebohui-home-content-header {
+     height: 49px;
+     background: #fff;
+     border-bottom: 1px solid #ddd;
+ }
+ 
+ .lebohui-home-content-item {
+     margin-top: 10px;
+     background: #fff;
+ }
+ 
+ .lebohui-home-content-item-header {
+     height: 40px;
+     line-height: 40px;
+     border-bottom: 1px solid #f0f0f0;
+     width: 95%;
+     margin: 0 auto;
+ }
+ 
+ .lebohui-home-content-item-header .comm:nth-child(1) {
+     float: left
+ }
+ 
+ .lebohui-home-content-item-header .comm:nth-child(2) {
+     float: right
+ }
+ 
+ .lebohui-home-content-item-canvas {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     text-align: center;
+     width: 100vw
+ }
+ 
+ .lebohui-home-content-item-canvas canvas {
+     width: 120px;
+ }
+ 
+ .rd-modal .rd-modal-footer {
+     justify-content: center;
+ }
+ 
+ .rd-modal .rd-btn {
+     min-width: 8rem;
+ }
+ 
+ .router-link-active {
+     color: #10AEFF;
+ }
+ /*注册*/
+ 
+ .lebohui-register {
+     padding: 10px 20px;
+     background: #fff;
+     color: #666;
+     font-size: 14px;
+     line-height: 20px;
+ }
+ 
+ .lebohui-verify {
+     background: #fff;
+     padding: 0 10px;
+ }
+ 
+ .lebohui-verify-mobile {
+     border-bottom: 1px solid #C8C7CC;
+ }
+ 
+ .lebohui-verify-mobile,
+ .lebohui-verify-code {
+     display: flex;
+     padding: 15px 10px;
+     margin: 0 auto;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .lebohui-verify-mobile div:nth-child(2),
+ .lebohui-verify-code div:nth-child(2) {
+     flex: 2;
+     border-left: 1px solid #C8C7CC;
+     border-right: 1px solid #C8C7CC;
+ }
+ 
+ .lebohui-verify-code div:nth-child(1) {
+     letter-spacing: 6px;
+ }
+ 
+ .lebohui-verify-mobile div:nth-child(2) input,
+ .lebohui-verify-code div:nth-child(2) input {
+     border: none;
+     width: 90%;
+     height: 25px;
+     padding-left: 5px;
+ }
+ /*头部*/
+ 
+ .lebohui-common-header {
+     padding: 10px 0;
+     display: flex;
+     align-items: center;
+     background: linear-gradient(157deg, #00D2FF 0%, #3A7BD5 100%);
+ }
+ 
+ .lebohui-back {
+     display: flex;
+     border-radius: 0px 40px 40px 0;
+     width: 50px;
+     align-items: center;
+     justify-content: center;
+     height: 40px;
+     font-size: 18px;
+     color: #fff;
+     background: rgba(255, 255, 255, 0.2);
+ }
+ 
+ .lebohui-header-title {
+     flex: 5;
+     text-align: center;
+     color: #fff;
+     font-size: 18px;
+ }
+ /*个人中心*/
+ 
+ .lebohui-my-header {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 250px;
+     width: 100%;
+     background: url('../images/bigbg.png') center no-repeat;
+     background-size: cover;
+ }
+ 
+ .lebohui-my-photo {
+     color: #fff;
+ }
+ 
+ .lebohui-my-photo dt img {
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+ }
+ 
+ .lebohui-my-menu {
+     background: #fff;
+ }
+ 
+ .lebohui-my-menu>div {
+     display: flex;
+     height: 49px;
+     width: 94%;
+     margin: 0 auto;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .lebohui-my-menu>div:nth-child(2) {
+     border-top: 1px solid #C8C7CC;
+     border-bottom: 1px solid #C8C7CC;
+ }
+ 
+ .lebohui-my-menu>div i {
+     vertical-align: middle;
+ }
+ /*订场地*/
+ 
+ .lebohui-schedule {
+     background: #fff;
+     padding-bottom: 56px;
+ }
+ 
+ .lebohui-schedule-content {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding: 0 10px 10px 10px;
+ }
+ 
+ .lebohui-schedule-item {
+     border: 1px solid #f2f2f2;
+ }
+ 
+ .lebohui-schedule-item-header {
+     height: 30px;
+     color: #fff;
+     line-height: 30px;
+     padding: 0 5px;
+ }
+ 
+ .lebohui-schedule-item-content {
+     height: 57px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .lebohui-schedule-header {
+     display: flex;
+     padding: 10px;
+     justify-content: center;
+ }
+ 
+ .lebohui-schedule-footer-item {
+     flex: 2;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #fff;
+ }
+ 
+ .join-buy-car {
+     background: #FF9402;
+ }
+ 
+ .submit-order {
+     background: #FF5000;
+ }
+ /*订单*/
+ 
+ .lebohui-comm-footer {
+     height: 60px;
+     box-shadow: -3px 0 5px #ccc;
+     background: #fff;
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+ }
+ 
+ .lebohui-comm-footer-content {
+     display: flex;
+     height: 60px;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+ }
+ 
+ .lebohui-comm-footer-item {
+     flex: 1;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     height: 100%;
+ }
+ 
+ .lebohui-goods-car {
+     background: #fff;
+     padding: 0 5px;
+ }
+ 
+ .lebohui-goods-car-items {
+     padding: 17px 0px 16px 10px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: row;
+     border-bottom: 1px solid #f0f0f0;
+ }
+ 
+ .lebohui-goods-car-item {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .lebohui-goods-car-left {
+     padding: 0 15px 0 0;
+ }
+ 
+ .lebohui-goods-car-right {
+     flex: 3;
+     justify-content: flex-start;
+ }
+ 
+ .lebohui-goods-car-right p {
+     color: #494949;
+ }

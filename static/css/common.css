@@ -1,0 +1,98 @@
+ .btn-lebohui {
+     width: 95%;
+     height: 44px;
+     border-radius: 2px;
+ }
+ 
+ .btn-lebohui-default {
+     background: #CACAD4;
+     color: #fff;
+ }
+ 
+ .btn-lebohui-primary {
+     background: #10AEFF;
+     color: #fff;
+ }
+ 
+ .btn-lebohui-white {
+     background: #fff;
+     color: #666;
+ }
+ 
+ .btn-lebohui-red {
+     background: #FF5000;
+     color: #fff;
+ }
+ 
+ .lebohui-b-primary {
+     background: #10AEFF;
+ }
+ 
+ .btn-lebohui-k-primary {
+     background: #FFFFFF;
+     border: 1px solid #10AEFF;
+     border-radius: 4px;
+     padding: 5px;
+     color: #10AEFF;
+ }
+ 
+ .btn-lebohui-k-orirage {
+     background: #FFFFFF;
+     border: 1px solid #FF5000;
+     border-radius: 4px;
+     padding: 5px;
+     color: #FF5000;
+ }
+ 
+ .primary {
+     color: #10AEFF;
+ }
+ 
+ .default {
+     color: #929292;
+ }
+ 
+ .green {
+     color: #48D2A0;
+ }
+ 
+ .orirage {
+     color: #FF5000;
+ }
+ /*正方形*/
+ 
+ .square {
+     display: inline-block;
+     vertical-align: middle;
+     margin-right: 5px;
+     margin-left: 5px;
+     width: 15px;
+     height: 15px;
+     border: 1px solid #d7d7d8;
+ }
+ 
+ .circle {
+     width: 20px;
+     height: 20px;
+     background: #FF5000;
+     position: absolute;
+     color: #fff;
+     border-radius: 100%;
+ }
+ /*颜色*/
+ 
+ .lebohui-green {
+     background: #48D2A0;
+ }
+ 
+ .lebohui-gray {
+     background: #C8C7CC;
+ }
+ 
+ .lebohui-blue {
+     background: #19ADED;
+ }
+ 
+ .lebohui-white {
+     color: #fff;
+ }
